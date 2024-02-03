@@ -1,7 +1,12 @@
 Following project will be used in GitHub Actions for use with [Fsu0413/openssl-externalCMake]:
 
-| OS | Versions | Arch | Action | Status |
+| OS / Toolchain | Versions | Arch | Action | Status |
 |-|-|-|-|-|
+| Windows / MSVC | 2019 / 2022 | x86 / x86_64 | - | Checked to be working |
+| Windows / MinGW | 12.2.0 / 13.1.0 | x86 / x86_64 | - | Checked to be working |
+| Ubuntu | 20.04 / 22.04 | x86_64 | - | Checked to be working |
+| macOS | 12 / 13 / 14 | x86_64 / arm64 | - | Checked to be working |
+| Android NDK | r13 (1.0.2) / r17 (1.1.0) / Latest | x86 / x86_64 / arm / arm64 | - | Checked to be working |
 | FreeBSD | 13.2 / 14.0 | x86_64 | [vmactions/freebsd-vm] | Checked to be working |
 | OpenBSD | 7.4 | x86_64 | [vmactions/openbsd-vm] | Checked to be working |
 | NetBSD | 9.3 | x86_64 | [vmactions/netbsd-vm] | Checked to be working |
